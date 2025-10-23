@@ -165,7 +165,7 @@ services:
     container_name: phpipam-web
     restart: unless-stopped
     ports:
-      - "80:80"
+      - "8080:80"
     environment:
       - IPAM_DATABASE_HOST=phpipam-db
       - IPAM_DATABASE_NAME=phpipam
